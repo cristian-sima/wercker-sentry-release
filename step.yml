@@ -15,9 +15,7 @@ properties:
  required: true
 - name: projects
  type: string
- required: false
- default: WERCKER_GIT_REPOSITORY
+ required: true
 - name: version
  type: string
- required: false
- default: WERCKER_GIT_COMMIT
+ required: true
