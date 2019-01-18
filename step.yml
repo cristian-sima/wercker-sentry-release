@@ -7,14 +7,14 @@ tags:
 - release
 properties:
 - name: auth_token
- type: string
- required: true
+  type: string
+  required: true
 - name: organization
- type: string
- required: true
+  type: string
+  required: true
 - name: projects
- type: string
- required: true
+  type: string
+  required: true
 - name: version
- type: string
- required: true
+  type: string
+  required: true
