@@ -36,6 +36,6 @@ curl -v $SENTRY_ENTRYPOINT \
         \"repository\":\"$WERCKER_GIT_REPOSITORY\",
         \"commit\":\"$WERCKER_GIT_COMMIT\",
     }],
-    \"version\": [$WERCKER_SENTRY_RELEASE_PROJECTS]
+    \"projects\": [$WERCKER_SENTRY_RELEASE_PROJECTS]
   }
 "
