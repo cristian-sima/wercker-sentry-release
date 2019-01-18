@@ -1,3 +1,4 @@
+# step.yml
 name: wercker-sync-sentry
 version: 1.0.0
 summary: Sync your release with wercker
