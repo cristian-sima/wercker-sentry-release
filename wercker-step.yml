@@ -1,9 +1,10 @@
-name: sentry-release
-version: 1.0.1
-description: Post your releases to Sentry.io
+name: wercker-sync-sentry
+version: 1.0.0
+description: Sync your release with wercker
 keywords:
   - sentry
   - release
+  - wercker
 properties:
   auth_token:
     type: string
