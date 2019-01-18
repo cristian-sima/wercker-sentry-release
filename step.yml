@@ -1,22 +1,22 @@
 name: wercker-sync-sentry
 version: 1.0.0
-description: Sync your release with wercker
-keywords:
+summary: Sync your release with wercker
+tags:
   - sentry
   - release
   - wercker
 properties:
-  auth_token:
-    type: string
-    required: true
-  organization:
-    type: string
-    required: true
-  projects:
-    type: string
-    required: false
-    default: WERCKER_GIT_REPOSITORY
-  version:
-    type: string
-    required: false
-    default: WERCKER_GIT_COMMIT
+  - name: auth_token
+  type: string
+  required: true
+  - name: organization
+  type: string
+  required: true
+  - name: projects
+  type: string
+  required: false
+  default: WERCKER_GIT_REPOSITORY
+  - name: version
+  type: string
+  required: false
+  default: WERCKER_GIT_COMMIT
