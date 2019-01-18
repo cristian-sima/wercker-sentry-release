@@ -1,6 +1,6 @@
 # wercker.yml 
 
-box: debian:stable-slim
+box: alpine
 
 build:
   steps:
