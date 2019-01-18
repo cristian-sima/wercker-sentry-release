@@ -1,0 +1,14 @@
+# wercker.yml
+box: debian:stable-slim
+build:
+ - script:
+ name: prepare output
+ code: rm -rf $WERCKER_ROOT/.git
+
+publish:
+ steps:
+ - install-packages:
+ packages: ca-certificates
+
+ - internal/publish-step:
+ owner: wercker
