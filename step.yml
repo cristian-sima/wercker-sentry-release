@@ -3,9 +3,8 @@ name: wercker-sync-sentry
 version: 1.0.0
 summary: Sync your release with wercker
 tags:
- - sentry
- - release
- - wercker
+- sentry
+- release
 properties:
 - name: auth_token
  type: string
